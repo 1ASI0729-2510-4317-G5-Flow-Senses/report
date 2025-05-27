@@ -190,13 +190,83 @@ La **misión** de Flow Sense es transformar la manera en que las personas y las 
 
 ### **1.1.2. Perfiles de integrantes del equipo**
 
-
-- **Pietro Osores Marchese** – Soy estudiante de Ingeniería de Software con un fuerte interés en la innovación tecnológica y el diseño centrado en el usuario. Me considero una persona organizada, con habilidades para liderar y analizar problemas de forma estructurada. En este proyecto, me encargué de definir los perfiles del equipo, analizar los antecedentes del problema y desarrollar todo el enfoque Lean UX, estableciendo así las bases conceptuales de nuestra solución.
-- **Amir Castro** – CTO: Responsable del desarrollo tecnológico, con experiencia en arquitectura de software, IoT y AI.
-- **Carlos [Apellido]** – UX/UI Designer: Diseñador centrado en la experiencia de usuario, encargado de construir interfaces intuitivas y accesibles.
-- **Stephano Moscoso** –Tengo 20 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto.
-- **Joaquín Carranza** – Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.
-
+<table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/3d5ba274-14f6-4c68-9a08-525ea633787b" alt="Foto de Pietro"></td>
+      <td class="profile-info">
+        <strong>Pietro Osores Marchese</strong> – Soy estudiante de Ingeniería de Software con un fuerte interés en la innovación tecnológica y el diseño centrado en el usuario. Me considero una persona organizada, con habilidades para liderar y analizar problemas de forma estructurada. En este proyecto, me encargué de definir los perfiles del equipo, analizar los antecedentes del problema y desarrollar todo el enfoque Lean UX, estableciendo así las bases conceptuales de nuestra solución.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/2ee104b3-72c9-4a2a-bc4b-968e75fa3936" alt="Foto de Amir"></td>
+      <td class="profile-info">
+        <strong>Amir Castro</strong> – CTO: Responsable del desarrollo tecnológico, con experiencia en arquitectura de software, IoT y AI.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/d87215ff-b192-4b01-a72b-185c98d1a28e" alt="Foto de Carlos"></td>
+      <td class="profile-info">
+        <strong>Carlos [Apellido]</strong> – UX/UI Designer: Diseñador centrado en la experiencia de usuario, encargado de construir interfaces intuitivas y accesibles.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/45d38524-daf6-4036-9de6-e3cdda00b5b2" alt="Foto de Stephano"></td>
+      <td class="profile-info">
+        <strong>Stephano Moscoso</strong> – Tengo 20 años y estoy estudiando actualmente en la Universidad Peruana de Ciencias Aplicadas. Me ha interesado mucho la creación de páginas web para diversos objetivos. Manejo algunos lenguajes de programación como JavaScript, C++, C+, Python, entre otros. Considero que tengo habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/f4fb8710-0594-4a11-a7f6-edcb696ea053" alt="Foto de Joaquín"></td>
+      <td class="profile-info">
+        <strong>Joaquín Carranza</strong> – Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+<section>
+  <h2>1.2.1 Antecedentes y problemática</h2>
+ 
+  <h3>Aplicación de la técnica 5W + 2H</h3>
+  <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+    <thead style="background-color: #f2f2f2;">
+      <tr>
+        <th style="text-align: left;">Pregunta</th>
+        <th style="text-align: left;">Respuesta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Who</strong><br><em>¿Quién?</em></td>
+        <td>Empresas (especialmente pymes), supervisores y trabajadores independientes (freelancers) que buscan optimizar su tiempo y productividad.</td>
+      </tr>
+      <tr>
+        <td><strong>What</strong><br><em>¿Qué?</em></td>
+        <td>La falta de una solución integral y adaptativa que permita controlar el tiempo de trabajo, automatizar tareas, monitorear el entorno laboral y facilitar la gestión de proyectos en un solo sistema.</td>
+      </tr>
+      <tr>
+        <td><strong>Where</strong><br><em>¿Dónde?</em></td>
+        <td>En entornos laborales digitales o híbridos: oficinas, espacios de coworking y entornos remotos (hogares, cafés, etc.).</td>
+      </tr>
+      <tr>
+        <td><strong>When</strong><br><em>¿Cuándo?</em></td>
+        <td>En momentos clave de la jornada laboral: inicio de turnos, cambio de actividades, reuniones, entrega de proyectos y reportes.</td>
+      </tr>
+      <tr>
+        <td><strong>Why</strong><br><em>¿Por qué?</em></td>
+        <td>Porque las soluciones actuales son fragmentadas, poco intuitivas o no se adaptan a las necesidades cambiantes del mercado laboral moderno. Esto ocasiona pérdida de tiempo, baja visibilidad para los supervisores y desorganización para los freelancers.</td>
+      </tr>
+      <tr>
+        <td><strong>How</strong><br><em>¿Cómo?</em></td>
+        <td>A través de un sistema inteligente con sensores, automatización de turnos, seguimiento de tareas, reportes personalizados y sincronización con asistentes de voz y apps de terceros.</td>
+      </tr>
+      <tr>
+        <td><strong>How Much</strong><br><em>¿Cuánto?</em></td>
+        <td>Las pérdidas por baja productividad pueden costar a las empresas miles de dólares anuales por empleado. En freelancers, se traduce en oportunidades perdidas, tiempos no facturados y desorganización en la gestión de sus servicios.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
 ## **1.2.2. Lean UX Process**
 
 El enfoque Lean UX nos ha permitido definir con claridad los problemas clave, entender las suposiciones tanto del negocio como de los usuarios, y plantear hipótesis que guiarán el diseño de nuestro producto, minimizando el desperdicio de recursos y optimizando el aprendizaje continuo.
@@ -379,6 +449,8 @@ Creemos que al proporcionar una experiencia intuitiva y flexible, lograremos que
 Creemos que al fomentar la integración con dispositivos personales, Flow Sense se volverá una extensión natural del día a día del usuario.
 
 **Sabremos que hemos tenido éxito** cuando más del 60% de usuarios activen al menos una integración con su dispositivo o asistente personal.
+
+---
 
 ---
 
