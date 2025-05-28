@@ -1,5 +1,4 @@
 # Student Outcome
-# Sin título
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | --- | --- | --- |
