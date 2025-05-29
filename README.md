@@ -172,12 +172,12 @@ Link de Trello: [https://trello.com/invite/b/6725085eef376b7a366078a5/ATTI35c5a7
 
 | User Story ID | User Story Title                   | Task ID | Work-Item / Task                        | Description                                                    | Estimation (hrs) | Assigned To | Status    |
 | ------------- | ---------------------------------- | ------- | --------------------------------------- | -------------------------------------------------------------- | ---------------- | ----------- | --------- |
-| E8-US22       | Navegación fluida entre secciones  | TSK-01  | Implementar navegación con anclajes     | Menú que permite navegar entre secciones                       | 4                | Carlos      | Done |
-| E8-US23       | Alternar información para clientes | TSK-02  | Configurar botón de alternar            | Cambia contenido entre empresas y freelancers                  | 3                | Amir        | Done    |
-| E8-US24       | Comparativa de planes              | TSK-03  | Crear tabla comparativa de planes       | Tabla que muestra diferencias entre planes                     | 3                | Carlos      | Done      |
-| E8-US25       | Mostrar tecnologías utilizadas     | TSK-04  | Diseño de sección de tecnologías        | Íconos y descripciones de tecnologías utilizadas               | 2                | Stephano    | Done      |
-| E8-US26       | Ver testimonios de otros usuarios  | TSK-05  | Maquetar sección de testimonios         | Testimonios dinámicos y alternables                            | 3                | Joaquín     | Done |
-| E8-US27       | Cambiar información según segmento | TSK-06  | Configurar CTA dinámico                 | Botón que cambia entre información para empresas y freelancers | 3                | Pietro        | Done     |
+| E8-US38       | Navegación fluida entre secciones  | TSK-01  | Implementar navegación con anclajes     | Menú que permite navegar entre secciones                       | 4                | Carlos      | Done |
+| E8-US39       | Alternar información para clientes | TSK-02  | Configurar botón de alternar            | Cambia contenido entre empresas y freelancers                  | 3                | Amir        | Done    |
+| E8-US40       | Comparativa de planes              | TSK-03  | Crear tabla comparativa de planes       | Tabla que muestra diferencias entre planes                     | 3                | Carlos      | Done      |
+| E8-US41       | Mostrar tecnologías utilizadas     | TSK-04  | Diseño de sección de tecnologías        | Íconos y descripciones de tecnologías utilizadas               | 2                | Stephano    | Done      |
+| E8-US42       | Ver testimonios de otros usuarios  | TSK-05  | Maquetar sección de testimonios         | Testimonios dinámicos y alternables                            | 3                | Joaquín     | Done |
+| E8-US43       | Cambiar información según segmento | TSK-06  | Configurar CTA dinámico                 | Botón que cambia entre información para empresas y freelancers | 3                | Pietro        | Done     |
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 Después de finalizar el Sprint 1, hemos logrado implementar algunas de las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, te invitamos a explorar nuestros avances a través de imágenes que muestran el resultado obtenido.
