@@ -1777,9 +1777,24 @@ Para facilitar la localización de información sin búsqueda explícita:
 
 ### 4.4.1. Web Applications Wireframes
 **Wireframe de inicio de sesión**
-![Captura de pantalla 2025-04-24 165601](https://github.com/user-attachments/assets/5b8e08f7-a316-4c2f-8da6-e33b960a4a89)
+![Image](https://github.com/user-attachments/assets/73900389-2aa7-48f0-9de2-9103d114e9d4)
+
+![Image](https://github.com/user-attachments/assets/3b60c66e-ff67-4bd3-8c61-a1fdbf19ea91)
+
+![Image](https://github.com/user-attachments/assets/5cff645d-0d99-4c0b-9a09-c6e5d92ae045)
+
+![Image](https://github.com/user-attachments/assets/162fc474-f675-4d0b-9df7-ef17a122eb12)
+
+![Image](https://github.com/user-attachments/assets/22b352b5-3864-4bed-8a4e-e229a5d10c00)
+
+![Image](https://github.com/user-attachments/assets/a9bf2af6-e816-42d3-996b-9f6336645761)
+
+![Image](https://github.com/user-attachments/assets/4bd084bc-37b9-4a55-b887-b1a73cb1436f)
+![image](https://github.com/user-attachments/assets/af61c1dd-7c9f-4767-adde-cb7b2e4bbea6)
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+![WhatsApp Image 2025-05-16 at 2 29 51 PM](https://github.com/user-attachments/assets/74ff6050-8bd7-4030-8137-a9799f7b3ab3)
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1802,7 +1817,8 @@ API Rest Component Diagram:
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
-![Captura de pantalla 2025-04-24 191604](https://github.com/user-attachments/assets/96318d7a-6d9a-487a-96ba-4b6297d316be)
+![Main](https://github.com/user-attachments/assets/17291806-b83b-4596-81c4-6b0254decc49)
+
 
 ### 4.7.2. Class Dictionary
 **Empresa**:
