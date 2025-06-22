@@ -2465,7 +2465,7 @@ La primera versión del Frontend Web Application fue desplegada exitosamente en 
     <h4>5.4. Video About-the-Product</h4>
     <p>Para complementar la documentación y demostrar de manera dinámica el valor y la funcionalidad de "Flow Senses", se ha producido un video resumen del producto. Este video presenta un recorrido por las características clave de la plataforma, mostrando la experiencia de usuario tanto para el segmento de freelancers como para el de empresas, y destacando cómo nuestra solución aborda los problemas de gestión de tiempo y productividad.</p>
     <p><strong>Enlace al video:</strong></p>
-    <a href="[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/EQRE-vQ3ewdMiZzYulPfjN4BHfofYhqq5wYfXlGmsoYV7Q?e=ArvAec&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]">Ver video de demostración de Flow Senses</a>
+    <p> Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g499_upc_edu_pe/EQRE-vQ3ewdMiZzYulPfjN4BHfofYhqq5wYfXlGmsoYV7Q?e=ArvAec&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </p>
   </td>
 </tr>
 
