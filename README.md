@@ -2316,7 +2316,7 @@ La primera versión del Frontend Web Application fue desplegada exitosamente en 
         <li><strong>Configuración de Comandos:</strong> Se especificó el comando de construcción (<code>npm install</code>) y el comando de inicio (<code>npm start</code>) para que Render pudiera instalar las dependencias y ejecutar el servidor.</li>
         <li><strong>Despliegue Automático:</strong> Una vez configurado, Render inició el proceso de despliegue automático. Al finalizar, se generó una URL pública para nuestra API, la cual quedó lista para recibir peticiones.<br><img src="https://i.imgur.com/R7sD4tF.png" alt="Despliegue exitoso en Render"></li>
       </ol>
-      <p><strong>URL de la API Desplegada:</strong><br><code>https://flowsenses-api.onrender.com</code></p>
+      <p><strong>URL de la API Desplegada:</strong><br><code>https://github.com/1ASI0729-2510-4317-G5-Flow-Senses/Backend</code></p>
       <hr>
       <h4>5.2.3.8 Team Collaboration Insights during Sprint</h4>
       <p>La colaboración durante el Sprint 3 fue gestionada principalmente a través de GitHub, donde el equipo trabajó en diferentes ramas para el desarrollo de las funcionalidades del backend. Se utilizó un flujo de Pull Requests para la revisión de código antes de integrar los cambios a la rama principal de desarrollo, asegurando la calidad y estabilidad de la API.</p>
