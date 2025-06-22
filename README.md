@@ -2210,6 +2210,126 @@ La primera versión del Frontend Web Application fue desplegada exitosamente en 
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 ![image](https://github.com/user-attachments/assets/cdee531a-e551-4689-a800-f5b360fcf5e3)
 
+<tr>
+  <td>
+    <h4>5.2.3.1. Sprint Planning 3</h4>
+    <p><strong>Sprint Planning Background</strong></p>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Date</strong></td>
+          <td>2025-06-05</td>
+        </tr>
+        <tr>
+          <td><strong>Time</strong></td>
+          <td>10:30 PM</td>
+        </tr>
+        <tr>
+          <td><strong>Location</strong></td>
+          <td>Via Discord</td>
+        </tr>
+        <tr>
+          <td><strong>Prepared By</strong></td>
+          <td>Pietro Osores</td>
+        </tr>
+        <tr>
+          <td><strong>Attendees</strong></td>
+          <td>Angelo Moscoso, Joaquin Carranza</td>
+        </tr>
+        <tr>
+          <td><strong>Sprint 2 Review Summary</strong></td>
+          <td>Se realizó el primer despliegue de la web application (frontend), implementando las interfaces de usuario para las funcionalidades clave como el dashboard, la gestión de tareas y el time tracking. </td>
+        </tr>
+        <tr>
+          <td><strong>Sprint 2 Retrospective Summary</strong></td>
+          <td>Hubo un incremento considerable en la productividad y compromiso del equipo.  Se identificó la necesidad de definir claramente los contratos de la API para facilitar la integración entre el frontend y el futuro backend.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Sprint Goal & User Stories</strong></p>
+    <p><strong>Sprint 3 Goal:</strong><br>
+    Nuestro enfoque para este sprint es establecer la base central integrada de la plataforma Flow Senses, creando un backend fundamental y conectándolo con la aplicación frontend.  Creemos que esta integración permitirá la gestión esencial de datos (usuarios, clientes, proyectos), mejorando significativamente la experiencia inicial del usuario y capacitando a nuestro equipo para construir sobre una base sólida.  Esto se confirmará cuando el backend soporte exitosamente operaciones CRUD para las entidades clave y el frontend pueda interactuar con estos endpoints para mostrar y gestionar la información. </p>
+    <p><strong>Sprint 3 Velocity:</strong> 42 Sum of Story Points | <strong>Sum of Story Points:</strong> 42</p>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+    <h4>5.2.3.3. Sprint Backlog 3</h4>
+    <p>Nuestro enfoque principal para este Sprint ha sido el desarrollo del backend de la plataforma Flow Senses.  Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories para asegurar un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.  Para la gestión y el control de estas tareas, se utilizó Trello. </p>
+    <p><strong>Sprint # Sprint 3</strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th>User Story Id / Technical Story ID</th>
+          <th>Título</th>
+          <th>Descripción</th>
+          <th>Estimación (Horas)</th>
+          <th>Asignado a</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TS-01</td>
+          <td>Definir Esquema de Base de Datos</td>
+          <td>Diseñar la estructura de datos en PostgreSQL para usuarios, clientes, proyectos y tareas.</td>
+          <td>8</td>
+          <td>Pietro Osores</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>TS-02</td>
+          <td>Implementar API de Autenticación</td>
+          <td>Crear endpoints POST para /api/auth/register y /api/auth/login con validación y generación de JWT.</td>
+          <td>12</td>
+          <td>Angelo Moscoso</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>TS-03</td>
+          <td>Implementar CRUD para Clientes</td>
+          <td>Desarrollar los endpoints GET, POST, PUT, DELETE para la entidad Cliente.</td>
+          <td>10</td>
+          <td>Joaquin Carranza</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>TS-04</td>
+          <td>Implementar CRUD para Proyectos</td>
+          <td>Desarrollar los endpoints GET, POST, PUT, DELETE para la entidad Proyecto, asegurando la relación con Cliente.</td>
+          <td>10</td>
+          <td>Joaquin Carranza</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>TS-05</td>
+          <td>Implementar CRUD para Tareas</td>
+          <td>Desarrollar los endpoints GET, POST, PUT, DELETE para la entidad Tarea, asegurando la relación con Proyecto.</td>
+          <td>8</td>
+          <td>Pietro Osores</td>
+          <td>Done</td>
+        </tr>
+        <tr>
+          <td>TS-06</td>
+          <td>Configurar Despliegue de Backend</td>
+          <td>Crear Dockerfile y configurar el servicio en Render para el despliegue continuo de la API.</td>
+          <td>6</td>
+          <td>Angelo Moscoso</td>
+          <td>Done</td>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+
+
+
+
+
   <tr>
     <td>
       <h4>5.2.3.4 Development Evidence for Sprint Review</h4>
