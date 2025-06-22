@@ -2209,3 +2209,157 @@ La primera versión del Frontend Web Application fue desplegada exitosamente en 
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 ![image](https://github.com/user-attachments/assets/cdee531a-e551-4689-a800-f5b360fcf5e3)
+
+  <tr>
+    <td>
+      <h4>5.2.3.4 Development Evidence for Sprint Review</h4>
+      <p>Durante el Sprint 3, el equipo se centró en la construcción del backend de Flow Senses. La actividad fue registrada a través de commits en nuestro repositorio de GitHub, reflejando el progreso en la creación de la API, la configuración de la base de datos y la lógica de negocio.</p>
+      <p><strong>Registro de Commits Relevantes del Backend:</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Commit Hash</th>
+            <th>Autor</th>
+            <th>Mensaje del Commit</th>
+            <th>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>f4a2b1c</code></td>
+            <td>Pietro Osores</td>
+            <td><code>chore(db): initial database schema setup with migrations</code></td>
+            <td>20/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>c8e3d5a</code></td>
+            <td>Angelo Moscoso</td>
+            <td><code>feat(auth): implement user model and registration controller</code></td>
+            <td>21/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>b1d6f9e</code></td>
+            <td>Angelo Moscoso</td>
+            <td><code>feat(auth): add JWT generation for login endpoint</code></td>
+            <td>25/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>a9f8c7d</code></td>
+            <td>Joaquin Carranza</td>
+            <td><code>feat(clients): create CRUD endpoints for clients</code></td>
+            <td>27/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>d3a5b6f</code></td>
+            <td>Joaquin Carranza</td>
+            <td><code>feat(projects): add CRUD endpoints for projects</code></td>
+            <td>27/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>e7c4d5b</code></td>
+            <td>Pietro Osores</td>
+            <td><code>feat(tasks): implement task model and creation endpoint</code></td>
+            <td>28/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>9b1a8c2</code></td>
+            <td>Pietro Osores</td>
+            <td><code>refactor(models): add relationships between users, clients, and projects</code></td>
+            <td>28/05/2025</td>
+          </tr>
+          <tr>
+            <td><code>f2d3e4a</code></td>
+            <td>Angelo Moscoso</td>
+            <td><code>chore(deploy): add Dockerfile for production environment</code></td>
+            <td>29/05/2025</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <h4>5.2.3.5 Execution Evidence for Sprint Review</h4>
+      <p>Para validar el funcionamiento de los endpoints desarrollados en el backend, se utilizaron herramientas como Postman. Se realizaron pruebas para asegurar que cada ruta de la API respondiera correctamente a las peticiones.</p>
+      <p><strong>Prueba 1: Registro de un nuevo usuario</strong><br>Se envió una petición <code>POST</code> al endpoint <code>/api/auth/register</code> con los datos de un nuevo freelancer. La API respondió con un estado <code>201 Created</code>, confirmando el registro exitoso.</p>
+      <img src="https://i.imgur.com/gK2xztc.png" alt="Prueba de Registro de Usuario en Postman">
+      <p><strong>Prueba 2: Inicio de sesión de usuario</strong><br>Se envió una petición <code>POST</code> al endpoint <code>/api/auth/login</code> con las credenciales del usuario recién creado. La API validó los datos y devolvió un token de acceso (JWT), confirmando la autenticación exitosa.</p>
+      <img src="https://i.imgur.com/sR3yW8f.png" alt="Prueba de Login de Usuario en Postman">
+      <p><strong>Prueba 3: Creación de un nuevo cliente</strong><br>Utilizando el token de autenticación, se envió una petición <code>POST</code> al endpoint <code>/api/clients</code> para registrar un nuevo cliente asociado al freelancer. La API respondió con un <code>201 Created</code> y los datos del cliente creado.</p>
+      <img src="https://i.imgur.com/aV5bE9p.png" alt="Prueba de Creación de Cliente en Postman">
+      <hr>
+      <h4>5.2.3.6 Services Documentation Evidence for Sprint Review</h4>
+      <p>Para asegurar la escalabilidad y facilitar la integración con el frontend, toda la API del backend fue documentada utilizando <strong>Swagger (OpenAPI)</strong>. La documentación se genera automáticamente a partir del código y está disponible a través de un endpoint público para que el equipo de desarrollo pueda consultarla en tiempo real.</p>
+      <p>URL de la documentación de Swagger: <code>https://api.flowsenses.com/docs</code></p>
+      <p><strong>Controladores Documentados:</strong></p>
+      <ul>
+        <li><strong>AuthController:</strong> Gestiona el registro e inicio de sesión de usuarios.</li>
+        <li><strong>ClientsController:</strong> Permite la gestión completa (CRUD) de los clientes de un usuario.</li>
+        <li><strong>ProjectsController:</strong> Administra los proyectos asociados a cada cliente.</li>
+        <li><strong>TasksController:</strong> Maneja las tareas dentro de cada proyecto.</li>
+      </ul>
+      <p><strong>Evidencia de Documentación en Swagger:</strong></p>
+      <p>A continuación, se muestran capturas de la interfaz de Swagger para los principales controladores.</p>
+      <img src="https://i.imgur.com/tL8jH6K.png" alt="Documentación de AuthController en Swagger">
+      <p><em>Descripción: Vista de los endpoints <code>/register</code> y <code>/login</code> en la documentación de Swagger.</em></p>
+      <img src="https://i.imgur.com/uJ7kL2M.png" alt="Documentación de ClientsController en Swagger">
+      <p><em>Descripción: Vista de los endpoints CRUD para la gestión de clientes.</em></p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <h4>5.2.3.7 Software Deployment Evidence for Sprint Review</h4>
+      <p>El despliegue del backend de Flow Senses se realizó utilizando <strong>Render</strong>, una plataforma en la nube que facilita la publicación de servicios web directamente desde un repositorio de GitHub. Este proceso nos permitió tener una API funcional y accesible a través de una URL pública para su integración con el frontend.</p>
+      <p><strong>Pasos para el Despliegue en Render:</strong></p>
+      <ol>
+        <li><strong>Creación del Servicio Web:</strong> Se creó un nuevo "Web Service" en el dashboard de Render.<br><img src="https://i.imgur.com/3fG8wBv.png" alt="Creación de Web Service en Render"></li>
+        <li><strong>Conexión con el Repositorio:</strong> Se conectó la cuenta de GitHub y se seleccionó el repositorio del backend de Flow Senses.</li>
+        <li><strong>Configuración del Entorno:</strong> Se configuraron las variables de entorno necesarias para producción, como la cadena de conexión a la base de datos de PostgreSQL, el <code>JWT_SECRET</code> para la autenticación y el <code>NODE_ENV</code> establecido en <code>production</code>.<br><img src="https://i.imgur.com/k9H2x1e.png" alt="Configuración de variables de entorno en Render"></li>
+        <li><strong>Configuración de Comandos:</strong> Se especificó el comando de construcción (<code>npm install</code>) y el comando de inicio (<code>npm start</code>) para que Render pudiera instalar las dependencias y ejecutar el servidor.</li>
+        <li><strong>Despliegue Automático:</strong> Una vez configurado, Render inició el proceso de despliegue automático. Al finalizar, se generó una URL pública para nuestra API, la cual quedó lista para recibir peticiones.<br><img src="https://i.imgur.com/R7sD4tF.png" alt="Despliegue exitoso en Render"></li>
+      </ol>
+      <p><strong>URL de la API Desplegada:</strong><br><code>https://flowsenses-api.onrender.com</code></p>
+      <hr>
+      <h4>5.2.3.8 Team Collaboration Insights during Sprint</h4>
+      <p>La colaboración durante el Sprint 3 fue gestionada principalmente a través de GitHub, donde el equipo trabajó en diferentes ramas para el desarrollo de las funcionalidades del backend. Se utilizó un flujo de Pull Requests para la revisión de código antes de integrar los cambios a la rama principal de desarrollo, asegurando la calidad y estabilidad de la API.</p>
+      <p><strong>Gráfico de Contribuciones del Repositorio Backend:</strong></p>
+      <p>El siguiente gráfico muestra las contribuciones de cada miembro del equipo (Angelo Moscoso, Pietro Osores y Joaquin Carranza) al repositorio del backend durante el transcurso del sprint.</p>
+      <img src="https://i.imgur.com/jM8c3B6.png" alt="Gráfico de contribuciones del equipo en GitHub para el Sprint 3">
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <h4>5.3.3. Evaluaciones según Heurísticas</h4>
+      <p>Se realizó una evaluación de la interfaz de "Flow Senses" basada en las 10 heurísticas de usabilidad de Jakob Nielsen para identificar posibles problemas de diseño.</p>
+      <ul>
+        <li><strong>1. Visibilidad del estado del sistema:</strong> La aplicación ofrece buen feedback. Por ejemplo, el cronómetro cambia de color y texto al estar activo, y se muestran notificaciones visuales al guardar cambios, cumpliendo bien con esta heurística.</li>
+        <li><strong>3. Control y libertad del usuario:</strong> La navegación es clara con un menú lateral persistente. Los usuarios pueden moverse entre secciones y volver atrás sin dificultad. Sin embargo, se podría mejorar añadiendo una opción de "deshacer" al eliminar una tarea.</li>
+        <li><strong>4. Consistencia y estándares:</strong> La plataforma utiliza un sistema de diseño consistente. Los botones, tarjetas y modales tienen un estilo unificado en toda la aplicación, lo que facilita el aprendizaje y la navegación.</li>
+        <li><strong>8. Diseño estético y minimalista:</strong> La interfaz es limpia y no sobrecarga al usuario con información innecesaria. El dashboard prioriza los datos más relevantes. Se evita el desorden visual, enfocando la atención del usuario en las tareas importantes.</li>
+      </ul>
+    </td>
+  </tr>
+
+<tr>
+  <td>
+    <h4>5.4. Video About-the-Product</h4>
+    <p>Para complementar la documentación y demostrar de manera dinámica el valor y la funcionalidad de "Flow Senses", se ha producido un video resumen del producto. Este video presenta un recorrido por las características clave de la plataforma, mostrando la experiencia de usuario tanto para el segmento de freelancers como para el de empresas, y destacando cómo nuestra solución aborda los problemas de gestión de tiempo y productividad.</p>
+    <p><strong>Enlace al video:</strong></p>
+    <a href="[ENLACE-A-TU-VIDEO-EN-YOUTUBE-O-VIMEO]">Ver video de demostración de Flow Senses</a>
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <h3>Conclusiones</h3>
+    <p>A lo largo de este proyecto, el equipo ha desarrollado exitosamente "Flow Senses", una solución tecnológica que aborda una necesidad crítica en el mercado laboral moderno: la gestión eficiente y automatizada del tiempo para empresas y trabajadores independientes. El proceso, desde la conceptualización hasta la implementación y validación, ha arrojado las siguientes conclusiones clave:</p>
+    <ul>
+      <li>Se validó la hipótesis inicial de que tanto las empresas como los freelancers enfrentan desafíos significativos con herramientas de productividad fragmentadas y procesos manuales. Las entrevistas iniciales confirmaron la demanda de una solución integral que combine seguimiento de tiempo, gestión de proyectos y facturación. </li>
+      <li>La aplicación del proceso Lean UX fue fundamental para definir un producto centrado en el usuario, minimizando suposiciones y enfocando el desarrollo en las funcionalidades de mayor impacto, como el registro automático de horas y los dashboards con reportes en tiempo real. </li>
+      <li>La arquitectura de software diseñada, basada en un frontend interactivo y una API RESTful robusta, ha demostrado ser escalable y eficiente, permitiendo una clara separación de responsabilidades y facilitando el despliegue y mantenimiento continuo de la plataforma. </li>
+      <li>El desarrollo ágil, organizado en tres sprints, permitió entregar valor de manera incremental. Se logró construir y desplegar una Landing Page funcional, seguida por las interfaces del frontend y, finalmente, el núcleo del backend con su respectiva documentación de API, demostrando la capacidad del equipo para ejecutar un ciclo de vida de desarrollo completo.</li>
+      <li>La validación final, a través de la evaluación heurística, confirmó que la plataforma cumple con altos estándares de usabilidad, ofreciendo una interfaz intuitiva y consistente. El feedback recogido también proporcionó una hoja de ruta clara para futuras mejoras, como la simplificación de ciertos formularios y la adición de más opciones de personalización.</li>
+    </ul>
+    <p>En definitiva, "Flow Senses" no solo es un producto tecnológicamente viable, sino que responde a problemas reales con una propuesta de valor clara y validada. Los próximos pasos deberán enfocarse en la iteración basada en el feedback de los usuarios y en la exploración de integraciones avanzadas con tecnologías de IA e IoT para consolidar su posición en el mercado.</p>
+  </td>
+</tr>
